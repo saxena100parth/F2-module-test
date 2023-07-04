@@ -51,7 +51,7 @@ function updateObject(index) {
   document
     .getElementById("myForm")
     .addEventListener("submit", submitUpdateForm);
-  document.getElementById("submit").value = "edit Student";
+  document.getElementById("submit").value = "Edit Student";
   // Function to handle form submission for update
   function submitUpdateForm(event) {
     event.preventDefault(); // Prevent form submission
