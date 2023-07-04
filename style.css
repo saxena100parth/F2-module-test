@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+form {
+  width: 300px;
+  margin-top: 20px;
+}
+#myForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  width: 350px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: 350px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px 20px 50px 0;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#formDataTable {
+  margin-top: 28px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#formDataTable th,
+#formDataTable td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+#formDataTable th {
+  background-color: #f2f2f2;
+}
+
+#searchInput {
+  margin-top: 20px;
+  padding: 10px;
+  width: 650px;
+  border: black solid 1px;
+}
